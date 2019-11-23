@@ -1,10 +1,10 @@
 ---
-.travis.yml:
+.github/workflows/acceptance.yml:
   beaker_sets:
-    - centos7-64
-    - debian8-64
-    - debian9-64
-    - debian10-64
+    - centos7
+    - debian8
+    - debian9
+    - debian10
 .puppet-lint.rc:
   extra_disabled_lint_checks:
     - 'documentation'
